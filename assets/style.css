@@ -1,0 +1,16 @@
+.hero-section {
+  background-image: url("./images/desktop.png");
+  
+}
+
+.nav-buttons li {
+  margin: 20px;
+}
+
+.nav-buttons li button {
+  margin-right: 150px;
+}
+
+.social-links {
+  margin-right: 150px;
+}
