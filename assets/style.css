@@ -130,6 +130,7 @@ font-family: font-face;
   width: 220px;
   height: 280px;
  color: #fff;
+ padding-left: 10px;
 
  /* background-color: rgb(48, 44, 44); */
   /* border-radius: 10px; */
@@ -138,4 +139,23 @@ font-family: font-face;
   box-shadow: -3px -3px 9px #aaa9a9a2,
               3px 3px 7px rgba(147, 149, 151, 0.671);
  
+}
+
+.speakers-section{
+    padding:60px;
+}
+
+.speakers-section img{
+    max-height: 150px;
+}
+
+.speakers-card{
+    max-width: 540px !important;
+    max-height: 200px !important;
+    margin-left: 60px !important;
+}
+
+.bottom-section img{
+    max-height: 100px;
+    padding-right: 60px;
 }
