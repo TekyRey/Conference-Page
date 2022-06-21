@@ -50,7 +50,7 @@
 .hero-section {
   background-image: url("./images/desktop.png");
   background-size: cover;
-  height: 100vh;
+  height: 600px;
   padding: 60px;
 }
 
@@ -113,3 +113,23 @@ font-family: font-face;
   color: #faf9f9;
 }
 
+.program-section {
+    background-image: url("./images/program.svg");
+    background-color: #272a31;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+
+.program-card{
+  width: 220px;
+  height: 280px;
+ color: #fff;
+
+ /* background-color: rgb(48, 44, 44); */
+  /* border-radius: 10px; */
+  /* padding: 0px 20px; */
+  /* margin-top: 100px; */
+  box-shadow: -3px -3px 9px #aaa9a9a2,
+              3px 3px 7px rgba(147, 149, 151, 0.671);
+ 
+}
