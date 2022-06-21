@@ -159,3 +159,8 @@ font-family: font-face;
     max-height: 100px;
     padding-right: 60px;
 }
+
+.logo-section img{
+    max-height: 200px;
+}
+
