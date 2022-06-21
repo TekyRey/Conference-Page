@@ -47,6 +47,12 @@
   box-sizing: border-box;
 }
 
+.logo ul li img{
+    height: 80px;
+    width: 80px;
+    
+}
+
 .hero-section {
   background-image: url("./images/desktop.png");
   background-size: cover;
