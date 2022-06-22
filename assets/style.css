@@ -2,9 +2,8 @@
 
 @font-face {
   font-family: "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
-    format("woff2"),
+  src: url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
+      format("woff2"),
     url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -12,19 +11,17 @@
 
 @font-face {
   font-family: "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
-    format("woff2"),
+  src: url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
+      format("woff2"),
     url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff")
-    format("woff");
+      format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
+  src: url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
     url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -47,10 +44,9 @@
   box-sizing: border-box;
 }
 
-.logo ul li img{
-    height: 80px;
-    width: 80px;
-    
+.logo ul li img {
+  height: 80px;
+  width: 80px;
 }
 
 .hero-section {
@@ -73,35 +69,28 @@
 }
 
 .h1-text {
- background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat center center;
- background-size: cover;
- color: #fff;
- -webkit-text-fill-color: transparent;
- -webkit-background-clip: text;
- -moz-background-clip:text;
- background-clip:text; 
-font-family: Rockwell,"Times New Roman",serif;
- font-size:3em;
- padding:0;
- margin:0;
- /* text-align:center; */
- -webkit-text-stroke: 1px #fa0707;
+  background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
+    center center;
+  background-size: cover;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  font-family: Rockwell, "Times New Roman", serif;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  -webkit-text-stroke: 1px #fa0707;
 }
 
 .h3-text {
- /* background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat center center; */
- /* background-size: cover; */
- /* color: #fff; */
- /* -webkit-text-fill-color: transparent; */
- /* -webkit-background-clip: text; */
- /* -moz-background-clip:text; */
- /* background-clip:text;  */
-font-family: font-face;
- /* font-size:1em; */
- padding:0;
- margin:0;
- /* text-align:center; */
- -webkit-text-stroke:#cf6020;
+  font-family: font-face;
+  /* font-size:1em; */
+  padding: 0;
+  margin: 0;
+  /* text-align:center; */
+  -webkit-text-stroke: #cf6020;
 }
 
 .btn-nav {
@@ -120,47 +109,55 @@ font-family: font-face;
 }
 
 .program-section {
-    background-image: url("./images/program.svg");
-    background-color: #272a31;
-    padding-bottom: 60px;
-    padding-left: 60px;
+  background-image: url("./images/program.svg");
+  background-color: #272a31;
+  padding-bottom: 60px;
+  padding-left: 60px;
 }
 
-.program-card{
+.program-card {
   width: 220px;
   height: 280px;
- color: #fff;
- padding-left: 10px;
+  color: #fff;
+  padding-left: 10px;
 
- /* background-color: rgb(48, 44, 44); */
+  /* background-color: rgb(48, 44, 44); */
   /* border-radius: 10px; */
   /* padding: 0px 20px; */
   /* margin-top: 100px; */
-  box-shadow: -3px -3px 9px #aaa9a9a2,
-              3px 3px 7px rgba(147, 149, 151, 0.671);
- 
+  box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
 }
 
-.speakers-section{
-    padding:60px;
+.speakers-section {
+  padding: 60px;
 }
 
-.speakers-section img{
-    max-height: 150px;
+.speakers-section img {
+  max-height: 150px;
 }
 
-.speakers-card{
-    max-width: 540px !important;
-    max-height: 200px !important;
-    margin-left: 60px !important;
+.speakers-card {
+  max-width: 540px !important;
+  max-height: 200px !important;
+  margin-left: 60px !important;
 }
 
-.bottom-section img{
-    max-height: 100px;
-    padding-right: 60px;
+.bottom-section img {
+  max-height: 100px;
+  padding-right: 60px;
 }
 
-.logo-section img{
-    max-height: 200px;
+.logo-section img {
+  max-height: 200px;
 }
 
+.square-holder img {
+  max-width:100%;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+  padding-left: 40px;
+}
+
+.square-holder:hover img{
+  filter:none;
+}
