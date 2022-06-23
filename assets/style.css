@@ -542,7 +542,7 @@ hr {
 
    /* Main -program */
   .main-program {
-    height: 80vh;
+    height: 140vh;
   }
 
   .program-labels {
@@ -559,7 +559,7 @@ hr {
     align-items: center;
     padding-left: 2rem;
     width: 99%;
-    height: 99px;
+    height: 150px;
   }
 
   .description {
