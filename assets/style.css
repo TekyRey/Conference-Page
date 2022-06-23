@@ -44,17 +44,6 @@
   box-sizing: border-box;
 }
 
-
-/* html {
-  font-size: 62.5%;
-} */
-
-/* body {
-  font-family: Lato, sans-serif;
-} */
-
-/* Header Section */
-
 .page-heading {
    display: flex;
   justify-content: flex-end;
@@ -65,7 +54,7 @@
   height: 30px;
   width: 100%;
   z-index: 30;
-    padding-right: 3rem;
+    padding-right: 7rem;
 
 }
 
@@ -156,12 +145,47 @@ hr {
 }
 
 .hero-section {
-  background-image: url("./images/desktop.png");
+  background-image: url("./images/canva.png");
   background-size: cover;
+  background-color: rgb(250, 246, 246);
   height: 600px;
-  padding: 60px;
+  padding: 160px;
+  margin-top: 70px;
 }
 
+.hero-section h3{
+  font-family: "cocogoose";
+  font-size: 2rem;
+  font-weight: 200;
+  color: #ec240d;
+  margin-bottom: 1rem;
+}
+
+.hero-section h4{
+  font-family: "cocogoose";
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  /* margin-bottom: 1rem; */
+}
+
+.hero-card{
+  box-shadow: 0 3px 6px 0 rgba(14, 13, 13, 0.1);
+  max-width: 100%;
+
+}
+
+
+
+.card-text{
+  font-family: "cocogoose";
+  font-size: 0.8 rem;
+  font-weight: 200;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
 .nav-buttons li {
   margin: 10px;
 }
@@ -193,6 +217,7 @@ hr {
 .h3-text {
   font-family: font-face;
   /* font-size:1em; */
+  margin-top: 115px;
   padding: 0;
   margin: 0;
   /* text-align:center; */
@@ -283,7 +308,6 @@ hr {
 .speaker-description p {
   margin: 1rem 0;
 }
-
 
 .fashion-img {
   width: 300px;
@@ -405,6 +429,24 @@ hr {
   .nav-section {
     display: none;
   }
+
+  .hero-section{
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    padding: 20px;
+
+  }
+
+  .hero-section h3{
+    padding-top: 80px;
+  }
+
+  .page-heading{
+  display:none;
+}
 
   .navbar {
     display: flex;
@@ -562,3 +604,57 @@ hr {
   }
 }
 
+
+.patners-section {
+  background: #2d2e31;
+  color: var(--color-accent);
+  font-family: var(--font-headings);
+  height: 35vh;
+}
+
+.patner-heading {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.patner-img {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-img {
+  width: 200px;
+  height: 70px;
+  color: var(--color-white);
+  align-items: center;
+}
+
+
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  gap: 2rem;
+  text-align: left;
+}
+
+.copyright-img {
+  width: 120px;
+  height: 150px;
+}
+
+.footer-para {
+  font-family: var(--alternate-font);
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer-descr {
+  align-items: center;
+  justify-content: center;
+}
