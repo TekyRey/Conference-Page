@@ -1,35 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap");
 
-@font-face {
-  font-family: Coco Gothic, "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
-    format("woff2"),
-    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Coco Gothic, "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
-    format("woff2"),
-    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff")
-    format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Coco Gothic, "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
-    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
 :root {
   --color-primary: #272a31;
   --color-secondary: #ec5242;
@@ -166,8 +136,7 @@ i#closeBtn {
 }
 
 .h1-text {
-  background:
-    url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
+  background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
     center center;
   background-size: cover;
   color: #fff;
@@ -251,14 +220,6 @@ i#closeBtn {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-size: 70.5%;
-}
-
-body {
-  font-family: Coco Gothic, "cocogoose";
 }
 
 .about-header {

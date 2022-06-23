@@ -1,35 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap");
 
-@font-face {
-  font-family: Coco Gothic, "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
-    format("woff2"),
-    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Coco Gothic, "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
-    format("woff2"),
-    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff")
-    format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Coco Gothic, "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
-    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
 :root {
   --color-primary: #272a31;
   --color-secondary: #ec5242;
@@ -157,13 +127,13 @@ hr {
   padding-left: 40px;
 }
 
-.square-holder:hover img {
-  filter: none;
-}
-
 .logo ul li img {
   height: 80px;
   width: 80px;
+}
+
+.square-holder:hover img {
+  filter: none;
 }
 
 .hero-section {
@@ -177,7 +147,6 @@ hr {
 }
 
 .hero-section h3 {
-  font-family: Coco Gothic, "cocogoose";
   font-size: 2rem;
   font-weight: 200;
   color: #ec240d;
@@ -185,7 +154,6 @@ hr {
 }
 
 .hero-section h4 {
-  font-family: Coco Gothic, "cocogoose";
   font-size: 2rem;
   font-weight: 700;
   color: black;
@@ -197,7 +165,6 @@ hr {
 }
 
 .card-text {
-  font-family: Coco Gothic, "cocogoose";
   font-size: 0.8 rem;
   font-weight: 200;
   color: black;
