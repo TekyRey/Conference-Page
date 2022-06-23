@@ -166,7 +166,7 @@ hr {
 
 .h1-text {
   background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
-  center center;
+    center center;
   background-size: cover;
   color: #fff;
   -webkit-text-fill-color: transparent;
@@ -203,7 +203,6 @@ hr {
 .logo-section img {
   max-height: 200px;
 }
-
 
 .fashion-img {
   width: 300px;
@@ -272,7 +271,7 @@ html {
 }
 
 body {
-    font-family: "cocogoose";
+  font-family: "cocogoose";
 }
 
 i#openBtn,
@@ -424,7 +423,6 @@ hr {
   color: var(--color-white);
 }
 
-
 /* Mobile-Version */
 @media screen and (max-width: 768px) {
   .page-heading {
@@ -510,18 +508,18 @@ hr {
   }
 
   /* Headline-section */
-    .hero-section {
-        height: 100vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        object-fit: contain;
-        background-size: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin : 10px;
-        background-color: rgb(250, 250, 250);
-    }
+  .hero-section {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(250, 250, 250);
+  }
   .text {
     display: block;
     font-size: 1.5rem;
