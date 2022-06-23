@@ -18,6 +18,10 @@
       crossorigin="anonymous"
     ></script>
     <title>Conference Page</title>
+       <script
+      src="https://kit.fontawesome.com/716817a6e7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section class="nav-section">
@@ -35,6 +39,7 @@
             </li>
            
           </ul>
+          <i class="fas fa-bars bars" id="openBtn"></i>
         </div>
         <div class="card nav-bar bg-white border-bottom border-3">
             <div class="logo">
@@ -131,111 +136,15 @@
 </div>
       </section>
 
-      <!-- <section class="speakers-section">
-        <h3 class="text-dark text-center mb-5 pt-5">Featured Speakers</h3>
-        <div class="row mt-5">
-            <div class="card mb-3 ms-5 speakers-card" >
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/speaker2.jpg" class="img-fluid img-thumbnail rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
- <div class="card mb-3 speakers-card ms-5" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/speaker3.jpg" class="img-fluid img-thumbnail rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-        <div class="row mt-5">
-            <div class="card mb-3 ms-5 speakers-card" >
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/speaker5.jpg" class="img-fluid img-thumbnail rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
- <div class="card mb-3 speakers-card ms-5" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/speaker4.jpg" class="img-fluid img-thumbnail rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="card mb-3 ms-5 speakers-card" >
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/speaker1.jpg" class="img-fluid img-thumbnail rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
- <div class="card mb-3 speakers-card ms-5">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/speaker6.jpg" class="img-fluid img-thumbnail rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </section> -->
+      
 
         <!-- Speakers Section -->
     <section class="speakers-section" id="speakers">
       <h2 class="speaker-header">Featured Speakers</h2>
-      <hr />
+      <hr/>
       <div class="subsection"></div>
     </section>
-      <section class="section section-default mt-none mb-none bg-secondary">
+      <section class="section section-default mt-none p-5 bg-secondary">
 <div class="container text-center ">
 <h2 class="mb-sm">Our <strong>Partners</strong></h2>
 <strong>
@@ -268,6 +177,24 @@
 </strong>
 </div>
 </section>
+
+<section class="footer  border bg-light">
+        
+        <div class="row d-flex logo-section justify-content-center align-middle">
+            <div class="col-md-2   text-white ">
+  <img src="../assets/images/logo.png" class="" alt="logo">
+
+</div>
+
+ <div class="col-md-6  text-dark ">
+  <div class="">
+    <h5 class="card-title align-middle">@Women In Tech Global Conference 2022</h5>
+
+  </div>
+</div>
+        </div>
+    </section>
+    
     <script src="../scripts/index.js"></script>
     <script src="../scripts/speakers.js"></script>
   </body>
