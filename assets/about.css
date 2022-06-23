@@ -4,7 +4,7 @@
   font-family: "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -14,9 +14,9 @@
   font-family: "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff")
-      format("woff");
+    format("woff");
   font-weight: 600;
   font-style: normal;
 }
@@ -37,14 +37,6 @@
   --font-headings: "Lato", sans-serif;
   --alternate-font: "Spartan", sans-serif;
   --white: #fff;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .page-heading {
@@ -135,12 +127,6 @@ i#closeBtn {
   display: none;
 }
 
-hr {
-  margin: 1rem auto;
-  width: 30px;
-  border: 1px solid #ec240d;
-}
-
 .logo ul li img {
   height: 80px;
   width: 80px;
@@ -153,6 +139,9 @@ hr {
   height: 600px;
   padding: 160px;
   margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .nav-buttons li {
@@ -168,7 +157,8 @@ hr {
 }
 
 .h1-text {
-  background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
+  background:
+    url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
     center center;
   background-size: cover;
   color: #fff;
@@ -275,22 +265,6 @@ html {
 
 body {
   font-family: "cocogoose";
-}
-
-/* Headline-Section */
-.hero-section {
-  font-family: var(--alternate-font);
-  background: url("../assets/images/canva.png");
-  height: 80vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  object-fit: contain;
-  background-size: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  /* border-bottom: 0.5px solid; */
-  background-color: rgb(250, 250, 250);
 }
 
 .about-header {
