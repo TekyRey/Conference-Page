@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap");
 
 @font-face {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
     format("woff2"),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
     format("woff2"),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
     url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
@@ -151,12 +151,13 @@ hr {
   background-size: cover;
   background-color: rgb(250, 246, 246);
   height: 600px;
-  padding: 160px;
+  padding-top: 50px;
+  padding-left: 150px;
   margin-top: 70px;
 }
 
 .hero-section h3 {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   font-size: 2rem;
   font-weight: 200;
   color: #ec240d;
@@ -164,7 +165,7 @@ hr {
 }
 
 .hero-section h4 {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   font-size: 2rem;
   font-weight: 700;
   color: black;
@@ -176,7 +177,7 @@ hr {
 }
 
 .card-text {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   font-size: 0.8 rem;
   font-weight: 200;
   color: black;
@@ -414,15 +415,11 @@ hr {
   }
 
   .hero-section {
-    max-width: 100%;
+    max-width: 110%;
     height: 600px;
     margin: 0 auto;
     justify-content: center;
     padding: 20px;
-  }
-
-  .hero-section h3 {
-    padding-top: 80px;
   }
 
   .page-heading {
@@ -449,7 +446,7 @@ hr {
     position: absolute;
     top: 0;
     background: #ec5342ec;
-    height: 100vh;
+    height: 110vh;
     width: 200px;
     left: -200px;
     text-align: left;

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap");
 
 @font-face {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
     format("woff2"),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
     format("woff2"),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
   src:
     url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
     url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
@@ -127,6 +127,15 @@ i#closeBtn {
   display: none;
 }
 
+.bottom-section img {
+  max-height: 100px;
+  padding-right: 60px;
+}
+
+.logo-section img {
+  max-height: 200px;
+}
+
 .logo ul li img {
   height: 80px;
   width: 80px;
@@ -186,15 +195,6 @@ i#closeBtn {
 .btn-nav:hover {
   background-color: #1e4bb4;
   color: #faf9f9;
-}
-
-.bottom-section img {
-  max-height: 100px;
-  padding-right: 60px;
-}
-
-.logo-section img {
-  max-height: 200px;
 }
 
 .fashion-img {
@@ -264,7 +264,7 @@ html {
 }
 
 body {
-  font-family: "cocogoose";
+  font-family: Coco Gothic, "cocogoose";
 }
 
 .about-header {
