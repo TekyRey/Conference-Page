@@ -382,7 +382,7 @@ hr {
 
   /* Headline-section */
   .hero-section {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
