@@ -136,7 +136,8 @@ i#closeBtn {
 }
 
 .h1-text {
-  background: url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
+  background:
+    url(../assets/images/magic-fire-ball-free-texture.jpg) no-repeat
     center center;
   background-size: cover;
   color: #fff;
