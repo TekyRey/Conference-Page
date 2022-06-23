@@ -24,48 +24,37 @@
     ></script>
   </head>
   <body>
-    <section class="nav-section">
-        <div class="">
-        <div class=" bg-dark">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">English</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Page</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Logout</a>
-            </li>
-           
-          </ul>
-          <i class="fas fa-bars bars" id="openBtn"></i>
-        </div>
-        <div class="card nav-bar bg-white border-bottom border-3">
-            <div class="logo">
-             
-                <ul class="nav  nav-buttons bg-white nav-section justify-content-end">
-                    <li class="">
-                            <a class= href="#">
-            <img src="../assets/images/logo.png" alt="logo">
-           </a>
-                    </li>
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="./about.html">About</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item ">
-            <button type="button" class="btn-nav ">
-              CC Campaign
-            </button>
-          </li>
-        </ul>
-            </div>
-        </div>
+    <header>
+      <div class="page-heading">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-twitter"></i>
+        <span class="heading-label">English</span>
+        <span class="heading-label">My Page</span>
+        <span class="heading-label">Logout</span>
       </div>
-    </section>
+      <div class="navbar">
+        <a href="#"
+          ><img
+            src="../assets/images/logo.png"
+            alt="Sawasawa brand logo"
+            class="logo-img"
+        /></a>
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-times close-icon" id="closeBtn"></i>
+            <ul class="nav-items" id="navItems">
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">Trends</a></li>
+            </ul>
+            <button class="btn">Latest Trends</button>
+          </div>
+        </nav>
+        <i class="fas fa-bars bars" id="openBtn"></i>
+      </div>
+    </header>
     <section class="hero-section">
       <div class="container-fluid ms-5 ">
         <h3 class="h3-text text-danger pt-5">"hello tech World"</h3>
@@ -108,14 +97,7 @@
             world.
           </p>
         </div>
-        <div class="program-items">
-          <i class="fa-brands fa-wpforms"></i>
-          <h3 class="tag">Forums</h3>
-          <p class="description">
-            Get to chat one on one with the speakers and also ask any questions
-            or bring in opinions.
-          </p>
-        </div>
+        
         <div class="program-items">
           <i class="fa-solid fa-house-laptop"></i>
           <h3 class="tag">Workshops</h3>
@@ -197,5 +179,6 @@
     
     <script src="../scripts/index.js"></script>
     <script src="../scripts/speakers.js"></script>
+    <script src="../scripts/mobilemenu.js"></script>
   </body>
 </html>
