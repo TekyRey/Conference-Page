@@ -2,53 +2,51 @@ const speakerSection = document.querySelector('.subsection');
 
 const speakersProgram = [
   {
-    image: "../assets/images/speaker1.jpg",
-    icon: "../assets/images/pattern.jpg",
-    name: "Shaq Deff",
-    label: "Audio Engineer and CEO of BLACK",
-    description:
-      "Shaq is the CEO of one of the biggest fashion companies know as BLACK, other than that he's also an audio engineer by profession and has worked with major labels globally.",
-  },
-  {
-    image: "../assets/images/speaker5.jpg",
-    icon: "../assets/images/pattern.jpg",
-    name: "GG The Ascendant",
-    label: "Artist and CEO of Sawasawa Brand",
-    description:
-      " GG is an outstanding musician and also the founder of Sawasawa brand. Her famous looks are known to be exquisite and she also holds a high rank in the fashion industry.",
-  },
-  {
     image: "../assets/images/speaker4.jpg",
     icon: "../assets/images/pattern.jpg",
-    name: "Eve Mwangi",
-    label: "Audio Engineer and CEO of BLACK",
+    name: "Rehema Mwaka",
+    label: "Founder and CEO of WIT",
     description:
-      "Eve is the mastermind behind the forever 21 brand that has held the position of the best branding in women fashion",
+      "Rehema is the founder and CEO of the women in tech conference. She is also a Passionate software developer who wants to make the world a better place",
   },
   {
     image: "../assets/images/speaker3.jpg",
     icon: "../assets/images/pattern.jpg",
-    name: "Lucas Lorenge",
-    label: "Founder of Akiba Agency",
+    name: "Calveline Waching",
+    label: "CEO of Amazing Cal",
     description:
-      "Lucas is among the successful men that have held the mens fashion for a long time. He has a successful agency that is well known for modelling.",
+      "Calveline is the founder and CEO of the Amazing Cal company. She is also a Passionate software developer who wants to make the world a better place",
   },
   {
-    image: "../assets/images/speaker2.jpg",
+    image: "../assets/images/speaker4.jpg",
     icon: "../assets/images/pattern.jpg",
-    name: "Olive Gathoni",
-    label: "Miss World 2020",
+    name: "Hellen Wainaina",
+    label: "Product Manager",
     description:
-      "Olive is a top tier model who has emerged the the top in almost every modeling competitions",
+      "Hellen is a passionate product manager, currently making great things happen at Google",
   },
   {
-    image: "../assets/images/speaker6.jpg",
+    image: "../assets/images/speaker3.jpg",
     icon: "../assets/images/pattern.jpg",
-    name: "Virgil Abloh",
-    label:
-      "Founder and CEO of Off-White and Artistic Director of menswear at Louis Vuitton",
+    name: "Rose Tinashe",
+    label: "Quality Assuarace",
+    description: "Rose is a professional Quality Assurance engineer at Helleka",
+  },
+  {
+    image: "../assets/images/speaker4.jpg",
+    icon: "../assets/images/pattern.jpg",
+    name: "Martha Obwaka",
+    label: "Software Marketer",
     description:
-      "   The best for last as they say. Virgil is a high end artichect and also a fashion designer who is known globally for his famous brand Louis Vuitton.",
+      "Martha is a top tier software marketer who has managed to market and successfully sell over 100 products",
+  },
+  {
+    image: "../assets/images/speaker3.jpg",
+    icon: "../assets/images/pattern.jpg",
+    name: "Rehema Mwaka",
+    label: "Founder and CEO of Women in Tech",
+    description:
+      "Rehema is the founder and CEO of the women in tech conference. She is also a Passionate software developer who wants to make the world a better place",
   },
 ];
 
