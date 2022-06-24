@@ -56,7 +56,6 @@
 
 .nav-links {
   display: flex;
-  align-items: center;
   text-align: center;
 }
 
@@ -322,7 +321,7 @@ hr {
     position: absolute;
     top: 0;
     background: #ec5342ec;
-    height: 100vh;
+    height: 110vh;
     width: 200px;
     left: -200px;
     text-align: left;
