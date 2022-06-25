@@ -46,7 +46,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+- Original design by Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+- ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## 📝 License
 
